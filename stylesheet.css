@@ -5,7 +5,7 @@
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #8d423f; 
+    background-color: #e6ceee; 
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -15,7 +15,7 @@
     text-decoration: none;
     font-size: 20px;
     font-family: verdana, geneva, sans-serif;
-    color: #f2f2f2;
+    color: #2f2c40;
     display: block;
 }
 
