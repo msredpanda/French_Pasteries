@@ -20,17 +20,22 @@
   background-color: #b87ecc;
 }
 
+#HowTo {
+  top: 20px;
+  background-color: #9c65af;
+}
+
 #RedPandas {
   top: 80px;
-  background-color: #9c65af;
+  background-color: #7b3991;
 }
 
 #Naomi {
   top: 140px;
-  background-color: #7b3991; 
+  background-color: #460c59; 
 }
 
 #Lattecatgirl {
   top: 200px;
-  background-color: #460c59;
+  background-color: #3b0c4a;
 }
