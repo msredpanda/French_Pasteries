@@ -1,36 +1,38 @@
-#mySidenav a {
-  position: absolute; 
-  left: -80px; 
-  transition: 0.3s; 
-  padding: 15px; 
-  width: 100px; 
-  text-decoration: none; 
-  font-size: 20px; 
-  color: white; 
-  border-radius: 0 5px 5px 0; 
+.navbar {
+  overflow: hidden;
+  background-color: #9994b8;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-#mySidenav a:hover {
-  left: 0; 
+.navbar a {
+  float: left;
+  display: block;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-
-#Home {
-  top: 20px;
-  background-color: #b87ecc;
+.navbar a:hover {
+  background: #6d6699;
+  color: white;
 }
 
-#RedPandas {
-  top: 80px;
-  background-color: #7b3991;
+.Home {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
 }
-
-#Naomi {
-  top: 140px;
-  background-color: #460c59; 
+.Lattecatgirl {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
 }
-
-#Lattecatgirl {
-  top: 200px;
-  background-color: #3b0c4a;
+.Naomi {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
 }
