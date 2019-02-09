@@ -3,14 +3,12 @@
 <head>
 <title> HowTo </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stylesheet2.css">
 
 </head>
  <style>
  body {
   font-family: Comic Sans, Comic Sans MS, cursive;
 } 
- 
 
 .flip-box {
   background-color: transparent;
@@ -19,7 +17,6 @@
   border: 1px solid none;
   perspective: 1000px; 
 }
-
 .flip-box-inner {
   position: relative;
   width: 100%;
@@ -28,23 +25,19 @@
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
-
 .flip-box-front, .flip-box-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
-
 .flip-box-front {
   background-color: #e8b5ce;
   color: #c62168;
 }
-
 .flip-box-back {
   background-color: #d4f7f6;
   color: #146c69;
@@ -54,9 +47,10 @@
 </style>
 </head>
 <body>
- 
-  <div class="navbar">
+
+ <div id="mySidenav" class="sidenav">
   <a href="https://msredpanda.github.io/french_pastries/frenchpastries.html" id="Home">Home</a>
+  <a href="https://msredpanda.github.io/french_pastries/howto.html" id="HowTo">HowTo</a>
   <a href="https://msredpanda.github.io/portfolio/redpandaprofessor.html" id="RedPandas">Other</a>
   <a href="https://naomijans.github.io/Port/port.html" id="Naomi">Naomi</a>
   <a href="https://lattecatgirl.github.io/port2/diy.html" id="Lattecatgirl">Natalie</a>
@@ -100,6 +94,60 @@
   </div>
 </div>
 
+<style>
+ body {
+  font-family: Comic Sans, Comic Sans MS, cursive;
+} 
+
+.flip-box2 {
+  background-color: transparent;
+  width: 355px;
+  height: 1950px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+.flip-box-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover2 .flip-box-inner2 {
+  transform: rotateY(180deg);
+}
+.flip-box-front2, .flip-box-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-front2 {
+  background-color: #ddd;
+  color: #c62168;
+}
+.flip-box-back2 {
+  background-color: #d4f7f6;
+  color: #146c69;
+  transform: rotateY(180deg);
+}
+  
+</style>
+
+<div class="flip-box2">
+  <div class="flip-box-inner2">
+    <div class="flip-box-front2">
+      <h2>French Macarons Flavorings</h2>
+    </div>
+    <div class="flip-box-back2">
+      <h2> Macarons Flavorings </h2>
+      <h3> Almond-Raspberry: </h3>
+ 
+      
+    </div>
+  </div>
+</div>
 
 
 </body>
